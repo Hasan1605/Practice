@@ -1,0 +1,22 @@
+input{
+    font-size: medium;
+    margin: 5px;
+    border: 0px;
+    width: 70%;
+    outline: 0px;
+    background-color: aliceblue;
+}
+.input-component{
+    display: flex;
+    flex-direction: column;
+}
+.input-component span{
+    padding: 10px;
+} 
+.inner-input-component{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px 2px grey;
+    border-radius: 25px;
+}

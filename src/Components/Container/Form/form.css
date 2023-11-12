@@ -1,0 +1,18 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    /* width: 50px; */
+    background-color: rgb(67, 161, 224);
+    padding: 3%;
+    @media screen and (max-width:700px)  {
+        width:80%;
+    };
+    @media screen and (max-width:1000px) and (min-width:701px){
+        width:50%;
+    }
+    @media screen and (min-width:1000px)  {
+        width:30%;
+    };
+    border-radius: 25px;
+    box-shadow: black 2px 2px 10px 1px;
+}
